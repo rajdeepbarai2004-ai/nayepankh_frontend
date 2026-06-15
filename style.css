@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    border: border-box;/*includes border inside the box model rather than outside*/
+}
+.navbar{
+    background-color: #1A4B8C;
+    color:white;
+    height:100px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    background-image: url(nayepankh_logo.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

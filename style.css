@@ -4,8 +4,8 @@
     border: border-box;/*includes border inside the box model rather than outside*/
 }
 .navbar{
-    height:60px;
-    background-color: #1A4B8C;
+    height:120px;
+    background-color:#1A2C4E;
     color: white;
     display:flex;
     align-items: center;
@@ -14,7 +14,7 @@
 }
 .nav-logo
 {
-    height:50px;
+    height:100px;
     width:100px;
 }
 .logo
@@ -22,7 +22,7 @@
     background-image:url(nayepankh_logo.avif) ;
     background-size: contain;
     background-repeat: no-repeat;
-    height:50px;
+    height:100%;
     width:100%;
 }
 .border:hover{

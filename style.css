@@ -6,13 +6,29 @@
 .navbar{
     background-color: #1A4B8C;
     color:white;
-    height:100px;
+    height:140px;
     display:flex;
     justify-content: space-evenly;
     align-items: center;
 }
+.nav-logo{
+    height:80%;
+    width:100px;
+    margin-right: 50px;
+}
 .logo{
+    background-color: pink;
     background-image: url(nayepankh_logo.avif);
     background-size: contain;
     background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+}
+.border:hover{
+     border: 2px solid #E8702A;
+}
+.options{
+    height:80%;
+    width:100%;
+    display: inline;
 }

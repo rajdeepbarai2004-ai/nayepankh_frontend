@@ -64,15 +64,23 @@
 .hero-section{
     background-color: #1A4B8C;
     color:white;
-    height:1000px;
+    height:880px;
     display:flex;
     justify-content:space-around;
+    padding-top: 100px;
 }
 .info-panel{
-   margin-top: 240px;
-   margin-left:100px;
-   height:400px;
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+   height:auto;
    width:100%;
+   margin-left: 100px;
+}
+.details{
+    margin-top: 120px;
+    height: auto;
+    width:100%;
 }
 .gov_details{
     background-color: #F5C518;
@@ -139,12 +147,17 @@
     text-align: center;
     text-decoration: none;
 }
-.btn_1::hover {
+.btn_1:hover {
   background-color: #dab016; 
 }
 .btn_2{
     background-color: #1A4B8C;
     color:white;
+}
+.image-panel{
+    background-color:pink;
+    height: auto;
+    width:100%;
 }
 .hero-section_2{
     background-color: #F5C518;

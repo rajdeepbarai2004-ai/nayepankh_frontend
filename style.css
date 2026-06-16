@@ -64,10 +64,10 @@
 .hero-section{
     background-color: #1A4B8C;
     color:white;
-    height:880px;
+    height:640px;
     display:flex;
     justify-content:space-around;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .info-panel{
    display:flex;
@@ -76,12 +76,12 @@
    height:auto;
    width:100%;
    margin-left: 70px;
-   margin-top:90px;
-   margin-bottom:70px;
+   margin-top:40px;
+   margin-bottom:20px;
    margin-right: 70px;
 }
 .details{
-    height:640px;
+    height:400px;
     width:100%;
 }
 .gov_details{
@@ -172,6 +172,19 @@
   display: inline-block;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+.image-panel{
+    height:400px;
+    width:100%;
+    background-color: pink;
+}
+.image-box{
+    background-image:url(nayepankh_herosection.avif) ;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .hero-section_2{
     background-color: #F5C518;

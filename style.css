@@ -127,10 +127,24 @@
 }
 .btn_1{
     background-color: #F5C518;
-    color:#333333;
-    border-radius: 999px;
-    height: 50px;
-    width:100px;
+    color: #333333;           
+    padding: 15px 40px;       
+    border: none;             
+    border-radius: 50px;      
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;          
+    display: inline-block;    
+    text-align: center;
+    text-decoration: none;
+}
+.btn_1::hover {
+  background-color: #dab016; 
+}
+.btn_2{
+    background-color: #1A4B8C;
+    color:white;
 }
 .hero-section_2{
     background-color: #F5C518;

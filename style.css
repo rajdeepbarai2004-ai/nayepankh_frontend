@@ -121,6 +121,17 @@
     line-height: 1.6;
     max-width: 600px;
 }
+.details_btn{
+    margin-top:30px;
+    display: flex;
+}
+.btn_1{
+    background-color: #F5C518;
+    color:#333333;
+    border-radius: 999px;
+    height: 50px;
+    width:100px;
+}
 .hero-section_2{
     background-color: #F5C518;
     color: black;

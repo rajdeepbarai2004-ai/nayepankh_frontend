@@ -60,4 +60,16 @@
     margin-right:25px;
     border-radius: 20px;
 }
+.hero-section{
+    background-color: #1A4B8C;
+    color:white;
+    height:600px;
+    display:flex;
+    justify-content:space-around;
+}
+.hero-section_2{
+    background-color: #F5C518;
+    color: black;
+    height:180px;
+}
 

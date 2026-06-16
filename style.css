@@ -75,11 +75,13 @@
    align-items: center;
    height:auto;
    width:100%;
-   margin-left: 100px;
+   margin-left: 70px;
+   margin-top:90px;
+   margin-bottom:70px;
+   margin-right: 70px;
 }
 .details{
-    margin-top: 120px;
-    height: auto;
+    height:640px;
     width:100%;
 }
 .gov_details{
@@ -103,61 +105,73 @@
     margin-top: 40px;
 }
 .heading_1{
-  font-family: "Bodoni 72", "Didot", "Times New Roman", serif;
-  font-size: 74px;
-  font-weight: bold;
   color: #ffffff;
-  /* Slight letter spacing adjustment to match the tight kerning */
-  letter-spacing: -1px;
+  /* Use a high-quality serif font like Georgia, Times New Roman, or similar */
+  font-family: "Georgia", serif; 
+  font-size: 48px;
+  font-weight: 700; /* Bold weight */
+  letter-spacing: -0.02em; /* Slightly tighter spacing common in logos */
+  margin: 0;
 }
-.heading_2
-{
-  font-family: "Bodoni 72", "Didot", "Times New Roman", serif;
-  font-size: 74px;
-  font-weight: bold;
-  color: #F5C518;
-  /* Slight letter spacing adjustment to match the tight kerning */
-  letter-spacing: -1px;
+.heading_2{
+   color: #F5C518;
+  /* Use a high-quality serif font like Georgia, Times New Roman, or similar */
+  font-family: "Georgia", serif; 
+  font-size: 50px;
+  font-weight: 700; /* Bold weight */
+  letter-spacing: -0.02em; /* Slightly tighter spacing common in logos */
+  margin: 0;
 }
 .info_text{
-    margin-top:30px;
-}
-.info_text p{
-    color:#E5E7EB;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.25rem;
     line-height: 1.6;
+    padding-top: 20px;
+    padding-bottom:20px;
     max-width: 600px;
 }
-.details_btn{
-    margin-top:30px;
-    display: flex;
+.info_text p{
+  color: #D1D5DB;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.details_btn {
+  display: flex;         /* Enables flexbox layout */
+  gap: 16px;             /* Adds a 16px gap between the buttons */
+  justify-content: flex-start; /* Optional: Aligns buttons to the left */
 }
 .btn_1{
-    background-color: #F5C518;
-    color: #333333;           
-    padding: 15px 40px;       
-    border: none;             
-    border-radius: 50px;      
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;          
-    display: inline-block;    
-    text-align: center;
-    text-decoration: none;
+  background-color:#F5C518 ;
+  color: #212121;           /* Dark charcoal text */
+  padding: 12px 32px;
+  border-radius: 50px;      /* Pill shape */
+  border: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
 }
-.btn_1:hover {
-  background-color: #dab016; 
+.btn_1:focus {
+  outline: none;
 }
 .btn_2{
-    background-color: #1A4B8C;
-    color:white;
-}
-.image-panel{
-    background-color:pink;
-    height: auto;
-    width:100%;
+  background-color: transparent; /* Matches the parent background */
+  border: 1px solid #4a7ab5;     /* Lighter blue border line */
+  border-radius: 50px;           /* Pill shape */
+  
+  /* Text Styling */
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  
+  /* Layout */
+  padding: 12px 32px;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 .hero-section_2{
     background-color: #F5C518;

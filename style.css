@@ -11,6 +11,8 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 5px solid #F5C518;
+    position: fixed;
+    width:100%;
 }
 .nav-logo
 {
@@ -63,9 +65,20 @@
 .hero-section{
     background-color: #1A4B8C;
     color:white;
-    height:600px;
+    height:700px;
     display:flex;
     justify-content:space-around;
+}
+.info-panel{
+   height:400px;
+   width:100%;
+}
+.gov_details{
+    background-color: #F5C518;
+    color: black;
+    height: 30px;
+    width:100px;
+    border-radius: 999px;
 }
 .hero-section_2{
     background-color: #F5C518;

@@ -155,6 +155,15 @@
 .btn_1:focus {
   outline: none;
 }
+.btn_1:hover{
+    background-color: #e6b800; /* slightly darker yellow */
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.btn_1:active{
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 .btn_2{
   background-color: transparent; /* Matches the parent background */
   border: 1px solid #4a7ab5;     /* Lighter blue border line */
@@ -177,14 +186,16 @@
     height:400px;
     width:100%;
     background-color: pink;
+    border-radius: 20px;
 }
 .image-box{
-    background-image: url(nayepankh_herosectionii.jpg);
+    background-image: url(hero_1ii.jpg);
     height: 100%;
     width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 20px;
 }
 .hero-section_2{
     background-color: #F5C518;

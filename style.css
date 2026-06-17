@@ -191,12 +191,33 @@
     color: black;
     height:140px;
     display:flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items:center;
+            
 }
 .box{
     height:100px;
-    width:100%
+    flex:1;
+    text-align:center;
+}
+.hr2num{
+  color: #001f3f; /* Deep navy blue text */
+  font-family: 'Georgia', serif; /* Elegant serif font */
+  font-size: 4rem;             /* Slightly smaller than 5rem */
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -1px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.hr2word{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 

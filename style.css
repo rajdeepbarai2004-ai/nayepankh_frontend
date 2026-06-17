@@ -661,3 +661,21 @@
     background-color: #f3be10;
     transform: translateY(-3px);
 }
+.footer_1{
+    background-color: #001f3f;
+    color: #ffffff;
+    height:500px;
+    display:flex;
+    flex-direction: column;   /* stack text vertically */
+    justify-content: center;   /* vertical centering */
+    align-items: center; 
+    text-align: center;
+    font-weight: 600;
+}
+.Quote{
+    font-size: 70px;
+}
+.name{
+    margin-top: 20px;
+    font-size:20px;
+}

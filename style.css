@@ -292,3 +292,122 @@
     background-color: #d4611e;
     transform: translateY(-2px);
 }
+/* ===== HERO SECTION 4 : PROGRAMS ===== */
+
+.programs-section{
+    background-color: #f0f4ff;
+    padding: 80px 70px;
+}
+
+.programs-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.subtitle{
+    color: #E8702A;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.title{
+    color: #1A2C4E;
+    font-family: "Georgia", serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.description{
+    color: #5A6E83;
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+.programs-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.card{
+    background: white;
+    padding: 35px 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+.icon{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.card h3{
+    color: #1A2C4E;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.card p{
+    color: #5A6E83;
+    line-height: 1.7;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+.card-footer{
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #F5C518;
+}
+
+.footer-purple{
+    background: #9B51E0;
+}
+
+.footer-pink{
+    background: #F2994A;
+}
+
+.footer-green{
+    background: #27AE60;
+}
+
+/* Tablet */
+@media(max-width: 992px){
+    .programs-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* Mobile */
+@media(max-width: 600px){
+    .programs-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .programs-section{
+        padding: 60px 25px;
+    }
+
+    .title{
+        font-size: 2.2rem;
+    }
+}

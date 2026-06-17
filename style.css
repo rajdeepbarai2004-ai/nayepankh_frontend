@@ -587,10 +587,10 @@
     }
 }
 .join_us{
-    height:600px;
+    height:700px;
     width:100%;
     background-color:#F8F6F2;
-    margin-top:20px;
+    margin-top:10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -603,5 +603,39 @@
     border-radius: 20px;
 }
 .jnimgbox{
+   height:100%;
+   width:100%;
+   background-image:url(nayeapankh_joinusii.jpg) ;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   border-radius: 20px;
+}
+.join_us_text {
+    font-family: Arial, sans-serif; /* Best match for clean, sans-serif look */
+    color: #1A2C4E;
+    max-width: 500px; /* Constrains width to match image layout */
+}
 
+.join_us_text h4 {
+    color:#E8702A;
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem; /* Replicates wide tracking in "JOIN OUR" */
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.join_us_text h2 {
+    font-size: 5rem; /* Large, bold "TEAM" header */
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
+}
+.join_us_text p {
+    font-size: 1.1rem;
+    line-height: 1.6; /* Adds breathing room between paragraph lines */
+    font-weight: 400;
+    letter-spacing: 0.02rem;
 }

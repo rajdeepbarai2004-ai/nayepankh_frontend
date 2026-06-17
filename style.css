@@ -234,6 +234,92 @@
     background-repeat: no-repeat;
     border-radius: 20px;
 }
+/* Tablets and Mobile */
+@media (max-width: 768px) {
+
+    .hero-section{
+        height: auto;
+        padding: 100px 20px 40px;
+    }
+
+    .info-panel{
+        flex-direction: column;
+        margin: 0;
+        gap: 40px;
+    }
+
+    .details{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .gov_details{
+        margin: 0 auto;
+    }
+
+    .heading_1{
+        font-size: 2.2rem;
+    }
+
+    .heading_2{
+        font-size: 2.4rem;
+    }
+
+    .info_text{
+        max-width: 100%;
+    }
+
+    .info_text p{
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .details_btn{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .image-panel{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+/* Small Phones */
+@media (max-width: 480px){
+
+    .heading_1{
+        font-size: 1.8rem;
+    }
+
+    .heading_2{
+        font-size: 2rem;
+    }
+
+    .gov_details{
+        width: 250px;
+    }
+
+    .gov_details p{
+        font-size: 0.75rem;
+    }
+
+    .btn_1,
+    .btn_2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .details_btn{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-panel{
+        height: 250px;
+    }
+}
 .hero-section_2{
     background-color: #F5C518;
     color: black;

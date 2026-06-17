@@ -415,7 +415,7 @@
 
 .vision-slider-section{
     background-color: #ffffff;
-    padding: 80px 70px;
+    padding: 80px 40px;
     overflow: hidden;
 }
 .slider-wrapper{
@@ -587,6 +587,21 @@
     }
 }
 .join_us{
-    height:700px;
+    height:600px;
     width:100%;
+    background-color:#F8F6F2;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.join_us_img{
+    height:400px;
+    width:40%;
+    background-color: pink;
+    border-radius: 20px;
+}
+.jnimgbox{
+
 }

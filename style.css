@@ -698,3 +698,112 @@
     margin: 0;
     font-size: 14px;
 }
+.footer-container_2 {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px 0;
+}
+
+/* Left Column Styling */
+.footer-left {
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main-heading {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #000000;
+    letter-spacing: -1px;
+}
+
+.contact-info p {
+    font-size: 0.95rem;
+    color: #1a1a1a;
+    line-height: 1.8;
+}
+
+.social-section h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.social-icons a {
+    color: #000000;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+/* Middle Column Styling */
+.footer-middle {
+    flex: 1;
+    padding-top: 75px; /* Aligns links relative to the left heading */
+}
+
+.footer-middle ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-middle ul li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.footer-middle ul li a:hover {
+    color: #555555;
+}
+
+/* Right Column (Image Banner) Styling */
+.footer-right {
+    flex: 2;
+    height: auto;
+}
+
+.footer-right img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+/* Responsive Layout for Mobile Displays */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .footer-middle {
+        padding-top: 0;
+    }
+    
+    .main-heading {
+        font-size: 2.5rem;
+    }
+}

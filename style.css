@@ -182,6 +182,16 @@
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+.btn_2:hover{
+    background-color: #4a7ab5;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(74, 122, 181, 0.3);
+}
+.btn_2:active{
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(74, 122, 181, 0.2);
+}
 .image-panel{
     height:400px;
     width:100%;

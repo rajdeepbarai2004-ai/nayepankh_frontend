@@ -280,6 +280,7 @@
     width:40%;
     height:460px;
     border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
 }
 .imghr3box{
     height: 100%;
@@ -289,6 +290,7 @@
     background-size:cover ;
     background-repeat: no-repeat;
     background-position: center;
+    border: 4px solid  #E8702A;
 }
 .infohr{
     height:460px;
@@ -324,15 +326,12 @@
 .hr3btn{
     background-color: #E8702A;
     color: white;
-
     padding: 12px 28px;
     border: none;
     border-radius: 50px;
-
     font-size: 1rem;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
-
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -340,23 +339,18 @@
     background-color: #d4611e;
     transform: translateY(-2px);
 }
-/* ===== HERO SECTION 4 : PROGRAMS ===== */
-
 .programs-section{
     background-color: #f0f4ff;
     padding: 80px 70px;
 }
-
 .programs-container{
     max-width: 1200px;
     margin: 0 auto;
 }
-
 .section-header{
     text-align: center;
     margin-bottom: 60px;
 }
-
 .subtitle{
     color: #E8702A;
     font-size: 0.9rem;
@@ -365,7 +359,6 @@
     text-transform: uppercase;
     margin-bottom: 10px;
 }
-
 .title{
     color: #1A2C4E;
     font-family: "Georgia", serif;
@@ -373,7 +366,6 @@
     font-weight: 700;
     margin-bottom: 15px;
 }
-
 .description{
     color: #5A6E83;
     max-width: 650px;
@@ -381,13 +373,11 @@
     line-height: 1.7;
     font-size: 1rem;
 }
-
 .programs-grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
 }
-
 .card{
     background: white;
     padding: 35px 25px;
@@ -395,72 +385,56 @@
     box-shadow: 0 8px 25px rgba(0,0,0,0.08);
     transition: all 0.3s ease;
 }
-
 .card:hover{
     transform: translateY(-8px);
     box-shadow: 0 15px 35px rgba(0,0,0,0.12);
 }
-
 .icon{
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
-
 .card h3{
     color: #1A2C4E;
     font-size: 1.3rem;
     margin-bottom: 15px;
 }
-
 .card p{
     color: #5A6E83;
     line-height: 1.7;
     font-size: 0.95rem;
     margin-bottom: 20px;
 }
-
 .card-footer{
     height: 4px;
     width: 100%;
     border-radius: 10px;
     background: #F5C518;
 }
-
 .footer-purple{
     background: #9B51E0;
 }
-
 .footer-pink{
     background: #F2994A;
 }
-
 .footer-green{
     background: #27AE60;
 }
-
-/* Tablet */
 @media(max-width: 992px){
     .programs-grid{
         grid-template-columns: repeat(2,1fr);
     }
 }
-
-/* Mobile */
 @media(max-width: 600px){
     .programs-grid{
         grid-template-columns: 1fr;
     }
-
     .programs-section{
         padding: 60px 25px;
     }
-
     .title{
         font-size: 2.2rem;
     }
 }
-/* ===== VISION SLIDER SECTION ===== */
-
 .vision-slider-section{
     background-color: #ffffff;
     padding: 80px 40px;
@@ -479,109 +453,75 @@
     width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
-
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-
     background-color: #F8FAFC;
     border-radius: 20px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.08);
 }
-
 .slider-container::-webkit-scrollbar{
     display: none;
 }
-
 .slider-container{
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
-
-/* ===== EACH SLIDE ===== */
-
 .slide{
     flex: 0 0 100%;
     min-width: 100%;
     min-height: 380px;
-
     scroll-snap-align: start;
-
     display: flex;
     align-items: center;
     gap: 50px;
-
     padding: 50px 70px;
     box-sizing: border-box;
 }
-
-/* ===== IMAGE ===== */
-
 .slide-image{
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .slide-image img{
     width: 380px;
     height: 250px;
-
     object-fit: cover;
-
     border-radius: 50%;
     border: 5px solid #F5C518;
-
     display: block;
 }
-
-/* ===== TEXT ===== */
-
 .slide-text{
     flex: 1.2;
 }
-
 .slide-text p{
     font-size: 1.15rem;
     line-height: 1.8;
     color: #5A6E83;
     font-style: italic;
 }
-
-/* ===== ARROWS ===== */
-
-
 .arrow-btn{
     position: static;     /* Remove absolute positioning */
     transform: none;
-
     width: 50px;
     height: 50px;
-
     border: none;
     border-radius: 50%;
-
     background-color: #1A2C4E;
     color: white;
-
     font-size: 1.5rem;
     cursor: pointer;
-
     flex-shrink: 0;
 }
 .arrow-btn:hover{
     background-color: #E8702A;
 }
-
-/* ===== DOTS ===== */
-
 .slider-nav{
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 25px;
 }
-
 .nav-dot{
     width: 12px;
     height: 12px;
@@ -591,13 +531,9 @@
 
     transition: background-color 0.3s ease;
 }
-
 .nav-dot:hover{
     background-color: #E8702A;
 }
-
-/* ===== MOBILE ===== */
-
 @media (max-width: 768px){
 
     .vision-slider-section{
@@ -649,6 +585,7 @@
     width:40%;
     background-color: pink;
     border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
 }
 .jnimgbox{
    height:100%;
@@ -658,13 +595,13 @@
    background-position: center;
    background-size: cover;
    border-radius: 20px;
+   border: 4px solid  #E8702A;
 }
 .join_us_text {
     font-family: Arial, sans-serif; /* Best match for clean, sans-serif look */
     color: #1A2C4E;
     max-width: 500px; /* Constrains width to match image layout */
 }
-
 .join_us_text h4 {
     color:#E8702A;
     font-size: 1.2rem;
@@ -673,7 +610,6 @@
     margin-bottom: 0.5rem;
     text-transform: uppercase;
 }
-
 .join_us_text h2 {
     font-size: 5rem; /* Large, bold "TEAM" header */
     font-weight: 900;
@@ -689,19 +625,14 @@
 }
 .join_us_text button{
     margin-top: 30px;
-
     background-color: #f5c835;
     color: #1A2C4E;
-
     border: none;
     border-radius: 50px;
-
     padding: 14px 36px;
-
     font-size: 1rem;
     font-weight: 700;
     letter-spacing: 1px;
-
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -741,11 +672,9 @@
     font-family: Arial, sans-serif; /* Clean sans-serif font like the image */
     line-height: 1.6;
 }
-
 .footer-section {
     max-width: 40%; /* Keeps text blocks narrow */
 }
-
 .footer-section p {
     margin: 0;
     font-size: 14px;
@@ -766,15 +695,12 @@
 
     box-sizing: border-box;
 }
-
-/* LEFT COLUMN */
 .footer-left {
     flex: 1.2;
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
-
 .main-heading {
     font-size: 3.2rem;
     font-weight: 800;

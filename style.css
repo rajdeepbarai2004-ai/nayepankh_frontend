@@ -662,7 +662,7 @@
     transform: translateY(-3px);
 }
 .footer_1{
-    background-color: #001f3f;
+    background-color: #1A4B8C;
     color: #ffffff;
     height:500px;
     display:flex;
@@ -678,10 +678,14 @@
 .name{
     margin-top: 20px;
     font-size:20px;
+    color: #F5C518;
+}
+.Designation{
+    color:#F5C518;
 }
 .footer-container {
-    background-color: #001f3f;
-    color: #ffffff;
+    background-color:#1A4B8C ;
+    color: #D1D5DB;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -699,11 +703,11 @@
     font-size: 14px;
 }
 .footer-container_2 {
+    background-color:#001f3f ;
     display: flex;
-
     width: 100%;
     min-height: 400px;   /* full screen height */
-    
+    color:#ffffff;
     margin: 0;
     padding: 80px 60px;
 
@@ -726,14 +730,14 @@
 .main-heading {
     font-size: 3.2rem;
     font-weight: 800;
-    color: #000;
+    color: #ffffff;
     letter-spacing: -1px;
     line-height: 1.1;
 }
 
 .contact-info p {
     font-size: 0.95rem;
-    color: #222;
+    color: #ffffff;
     line-height: 1.7;
 }
 
@@ -741,7 +745,7 @@
 .social-section h3 {
     font-size: 1rem;
     font-weight: 600;
-    color: #000;
+    color: #ffffff;
     margin-bottom: 12px;
     letter-spacing: 1.5px;
 }
@@ -753,7 +757,7 @@
 }
 
 .social-icons a {
-    color: #000;
+    color: #ffffff;
     font-size: 1.4rem;
     text-decoration: none;
     transition: all 0.25s ease;
@@ -782,14 +786,14 @@
 
 .footer-middle ul li a {
     text-decoration: none;
-    color: #222;
+    color: #ffffff;
     font-size: 0.95rem;
     font-weight: 500;
     transition: all 0.2s ease;
 }
 
 .footer-middle ul li a:hover {
-    color: #000;
+    color: #ffffff;
     padding-left: 5px;
 }
 

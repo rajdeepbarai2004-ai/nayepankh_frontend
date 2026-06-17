@@ -679,3 +679,22 @@
     margin-top: 20px;
     font-size:20px;
 }
+.footer-container {
+    background-color: #001f3f;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif; /* Clean sans-serif font like the image */
+    line-height: 1.6;
+}
+
+.footer-section {
+    max-width: 40%; /* Keeps text blocks narrow */
+}
+
+.footer-section p {
+    margin: 0;
+    font-size: 14px;
+}
